@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Brent Sauls, ICLS</title>
+    <link href="https://bestiecreatives.github.io/BrentSauls/feed.xml" rel="self" />
+    <link href="https://bestiecreatives.github.io/BrentSauls" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>Brent Sauls</name>
+    </author>
+    <id>https://bestiecreatives.github.io/BrentSauls</id>
+
+</feed>
