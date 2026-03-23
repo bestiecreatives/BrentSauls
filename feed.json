@@ -2,10 +2,10 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Brent Sauls, ICLS",
     "description": "",
-    "home_page_url": "https://bestiecreatives.github.io/BrentSauls",
-    "feed_url": "https://bestiecreatives.github.io/BrentSauls/feed.json",
+    "home_page_url": "https://brentsauls.com",
+    "feed_url": "https://brentsauls.com/feed.json",
     "user_comment": "",
-    "icon": "https://bestiecreatives.github.io/BrentSauls/media/website/USETHISTRANSPARENT-2.png",
+    "icon": "https://brentsauls.com/media/website/USETHISTRANSPARENT-2.png",
     "author": {
         "name": "Brent Sauls"
     },
