@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "b7753f7c-9d10-4017-90a0-078f87e9798d",
+    "id": "7c55a9bf-f2fd-4adc-b960-dec5ae07bd65",
     "projectId": "f45435c4-b60f-4fe6-9efb-1e39122ed46d",
-    "version": 578,
-    "createdAt": "2026-04-04T18:17:34.582+00:00",
-    "updatedAt": "2026-04-04T18:17:34.582+00:00",
+    "version": 580,
+    "createdAt": "2026-04-04T18:20:53.038+00:00",
+    "updatedAt": "2026-04-04T18:20:53.038+00:00",
     "pages": {
       "meta": {
         "siteName": "Brent Sauls, ICLS",
@@ -65032,37 +65032,7 @@
           "children": [
             {
               "type": "id",
-              "value": "eX8_K3sNcxwQkzmYM3Zd3"
-            }
-          ]
-        }
-      ],
-      [
-        "eX8_K3sNcxwQkzmYM3Zd3",
-        {
-          "type": "instance",
-          "id": "eX8_K3sNcxwQkzmYM3Zd3",
-          "component": "ws:element",
-          "tag": "span",
-          "children": [
-            {
-              "type": "id",
-              "value": "Ndr84oqcuYdX50vEHfXMp"
-            }
-          ]
-        }
-      ],
-      [
-        "Ndr84oqcuYdX50vEHfXMp",
-        {
-          "type": "instance",
-          "id": "Ndr84oqcuYdX50vEHfXMp",
-          "component": "ws:element",
-          "tag": "b",
-          "children": [
-            {
-              "type": "text",
-              "value": "Brent’s long-form work spans action, drama, historical narrative, sci-fi, and documentary storytelling — from intimate character pieces to large-scale international productions. His lighting approach integrates effortlessly with camera, grip, and production teams, supporting cinematographers with clarity, adaptability, and seamless execution across Main, Rigging, 2nd Unit, and VFX Unit work."
+              "value": "B47uqr2Cbo-rV9WrORHP6"
             }
           ]
         }
@@ -65143,6 +65113,21 @@
             {
               "type": "id",
               "value": "ZIoyXIderPg_0Im3W6dt8"
+            }
+          ]
+        }
+      ],
+      [
+        "B47uqr2Cbo-rV9WrORHP6",
+        {
+          "type": "instance",
+          "id": "B47uqr2Cbo-rV9WrORHP6",
+          "component": "ws:element",
+          "tag": "b",
+          "children": [
+            {
+              "type": "text",
+              "value": "Brent brings speed, precision, and adaptable problem-solving to agency-driven commercial work. Trusted by leading global brands across automotive, fashion, luxury, technology, lifestyle, and beverage, he delivers lighting that supports fast creative decisions, tight schedules, and the visual identity of each campaign."
             }
           ]
         }

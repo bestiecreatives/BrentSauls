@@ -9,7 +9,7 @@
 
       export const projectId = "f45435c4-b60f-4fe6-9efb-1e39122ed46d";
 
-      export const lastPublished = "2026-04-04T18:17:34.582Z";
+      export const lastPublished = "2026-04-04T18:20:53.038Z";
 
       export const siteName = "Brent Sauls, ICLS";
 
