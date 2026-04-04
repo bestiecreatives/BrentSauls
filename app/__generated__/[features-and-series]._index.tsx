@@ -10,7 +10,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "f45435c4-b60f-4fe6-9efb-1e39122ed46d";
 
-      export const lastPublished = "2026-04-04T18:32:15.484Z";
+      export const lastPublished = "2026-04-04T18:56:12.905Z";
 
       export const siteName = "Brent Sauls, ICLS";
 
@@ -178,6 +178,8 @@ className={`w-element`}>
 {"Gaffer, Rigging Gaffer"}
 </b>
 </Heading>
+<Box
+className={`w-box c1citdtb cucw341 c1mqjxyf c149hh94 c1p1dooo c15avqat c9qbqbd cimp2t3 c1whyfkr cyfbjju cmu33gf c18hjjc`}>
 <p
 className={`w-element`}>
 <i
@@ -185,6 +187,35 @@ className={`w-element`}>
 {"Light.Work / Shadow.Work"}
 </i>
 </p>
+<p
+className={`w-element`}>
+<b
+className={`w-element`}>
+{"Finding Light. Honoring the Shadow."}
+</b>
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"Every story lives in Contrast."}
+</b>
+</p>
+<p
+className={`w-element`}>
+<b
+className={`w-element`}>
+{"Driven by passion. Grounded in craft."}
+</b>
+</p>
+<p
+className={`w-element`}>
+<b
+className={`w-element`}>
+{"I love working with people who care deeply about what they do — and helping them bring their vision to life through light. Every frame is shaped through discipline, teamwork, and trust — because truth lives in contrast."}
+</b>
+</p>
+</Box>
 </Fragment_1>
 </Slot>
 <Box
