@@ -5,7 +5,10 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite dev",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsgo --noEmit",
+    "sync": "npx webstudio sync --authToken $WEBSTUDIO_AUTH_TOKEN",
+  "deploy": "npm run sync && git add . && git commit -m \"site update\" && git push"
+
   },
   "dependencies": {
     "@webstudio-is/image": "0.258.0",
