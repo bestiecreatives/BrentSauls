@@ -21,14 +21,14 @@ export const getResources = (_props: { system: System }) => {
   resources: Record<string, any>;
 }): PageMeta => {
   return {
-    title: "Brent Sauls, ICLS",
-    description: "Brent Sauls is an African Gaffer with nearly two decades of experience across features, series, and premium commercial work. ",
-    excludePageFromSearch: true,
+    title: "Brent Sauls ICLS: Features & Series",
+    description: "Brent’s long-form work spans action, drama, historical narrative, sci-fi, and documentary storytelling — from intimate character pieces to large-scale international productions. His lighting approach integrates effortlessly with camera, grip, and production teams, supporting cinematographers with clarity, adaptability, and seamless execution across Main, Rigging, 2nd Unit, and VFX Unit work.",
+    excludePageFromSearch: false,
     language: "en-uk",
     socialImageAssetName: undefined,
-    socialImageUrl: undefined,
+    socialImageUrl: "",
     status: undefined,
-    redirect: undefined,
+    redirect: "",
     custom: [
     ],
   };

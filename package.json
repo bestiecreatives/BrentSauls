@@ -3,12 +3,10 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && vike prerender",
     "dev": "vite dev",
     "typecheck": "tsgo --noEmit",
-    "sync": "npx webstudio sync --authToken $WEBSTUDIO_AUTH_TOKEN",
-  "deploy": "npm run sync && git add . && git commit -m \"site update\" && git push"
-
+    "update": "npx webstudio && git add . && git commit -m \"site update\" || true && git push"
   },
   "dependencies": {
     "@webstudio-is/image": "0.258.0",
