@@ -197,286 +197,61 @@ className={`w-element`}>
 </b>
 </span>
 </p>
-</Box>
-<Box
-className={`w-box`}>
 <HtmlEmbed
-code={"<style>\n  [dv-lightbox=\"open\"] {\n            display: flex;\n            opacity: 1;\n            justify-content: center;\n            align-items: center;\n        }\n</style>\n"}
+code={"<style>\n.client-wall { max-width: 1100px; margin: auto; padding: 60px 20px; }\n.client-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 52px 64px; align-items: center; justify-items: center; }\n.logo-item { width: 100%; min-height: 64px; display: flex; align-items: center; justify-content: center; }\n.logo-item img { max-width: 150px; max-height: 64px; width: auto; height: auto; object-fit: contain; opacity: 0.68; filter: grayscale(1); transition: opacity .25s ease, transform .25s ease, filter .25s ease; }\n.logo-item img:hover { opacity: 1; transform: translateY(-2px); filter: grayscale(0); }\n.logo-item .text-logo { font-family: Arial, Helvetica, sans-serif; font-size: 19px; letter-spacing: 0.14em; color: #000; opacity: 0.68; transition: opacity .25s ease, transform .25s ease, color .25s ease; white-space: nowrap; }\n.logo-item .text-logo:hover { opacity: 1; transform: translateY(-2px); }\n\nhtml[website-theme=\"dark\"] .logo-item img { filter: grayscale(1) invert(1); }\nhtml[website-theme=\"dark\"] .logo-item img:hover { filter: grayscale(0) invert(0); }\nhtml[website-theme=\"dark\"] .logo-item .text-logo { color: #fff; }\n\nhtml[website-theme=\"light\"] .logo-item img { filter: grayscale(1); }\nhtml[website-theme=\"light\"] .logo-item img:hover { filter: grayscale(0); }\nhtml[website-theme=\"light\"] .logo-item .text-logo { color: #000; }\n\n@media (prefers-color-scheme: dark) {\n  html[website-theme=\"auto\"] .logo-item img { filter: grayscale(1) invert(1); }\n  html[website-theme=\"auto\"] .logo-item img:hover { filter: grayscale(0) invert(0); }\n  html[website-theme=\"auto\"] .logo-item .text-logo { color: #fff; }\n}\n\n@media (prefers-color-scheme: light) {\n  html[website-theme=\"auto\"] .logo-item img { filter: grayscale(1); }\n  html[website-theme=\"auto\"] .logo-item img:hover { filter: grayscale(0); }\n  html[website-theme=\"auto\"] .logo-item .text-logo { color: #000; }\n}\n</style>\n\n<div class=\"client-wall\">\n  <div class=\"client-grid\">\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/astonmartin.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Aston Martin\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/bmw.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"BMW\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/audi.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Audi\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/mini.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Mini\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/nissan-global.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Nissan\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/volkswagen.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Volkswagen\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/landrover.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Range Rover\"></div>\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/dior.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Christian Dior\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/louisvuitton.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Louis Vuitton\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/tomford.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Tom Ford\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/balmain.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Balmain\"></div>\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/meta.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Meta\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/instagram.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Instagram\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/vodafone.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Vodafone\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/mtn.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"MTN\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/cellc.co.za/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Cell C\"></div>\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/ray-ban.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Ray-Ban\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/crocs.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Crocs\"></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">JD WILLIAMS</span></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/primark.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Primark\"></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">MAXHOSA AFRICA</span></div>\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/coca-cola.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Coca-Cola\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/theheinekencompany.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Heineken\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/jamesonwhiskey.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Jameson\"></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">BRUTAL FRUIT</span></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">CASTLE LITE</span></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">TANQUERAY</span></div>\n\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/aramco.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Aramco\"></div>\n    <div class=\"logo-item\"><span class=\"text-logo\">WOOLMARK</span></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/adidas.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Adidas\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/nike.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Nike\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/bankofireland.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Bank of Ireland\"></div>\n    <div class=\"logo-item\"><img src=\"https://cdn.brandfetch.io/domain/marshall.com/w/200/h/80/fallback/404/logo?c=1idnQfne-QV3MnCOxc0\" alt=\"Marshall\"></div>\n\n  </div>\n</div>\n\n<script>\n  document.querySelectorAll('.logo-item img').forEach(img => {\n    img.addEventListener('error', function() {\n      this.style.display = 'none';\n    });\n  });\n</script>"}
+executeScriptOnCanvas={true}
+clientOnly={false}
 className={`w-html-embed`} />
-<Box
-className={`w-box`}>
-<Box
-dv-lightbox-gallery={""}
-className={`w-box cneeidw cnlp5q9 c1wa1xj8 c1jyd95o ccm46o9 clt29mm cyfbjju`}>
-{Object.entries(
-  // @ts-ignore
-  [{"image":"https://media.themoviedb.org/t/p/original/261fvNbRB78p14bAERDqOrFtZ8J.jpg","alt":"African Queens: Njinga (2023) | Netflix Limited Series | Gaffer | DP: Kabelo Thathe SASC | Emmy-nominated for Best Cinematography"},{"image":"https://media.themoviedb.org/t/p/original/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg","alt":"Sniper: The Last Stand (2025) | Feature Film | Gaffer | DP: Trevor Calverley SASC"},{"image":"https://media.themoviedb.org/t/p/original/A5fYyKH3A7KvbBk9zhVLKCvELIE.jpg","alt":"Devil's Peak (2022) | Series / Drama | Gaffer | DP: Ivan Strasberg BSC"},{"image":"https://media.themoviedb.org/t/p/original/cyn395RyxeP64T6jEgOGE4K7O46.jpg","alt":"Wild Is the Wind (2022) | Feature Film | Gaffer | DP: Bert Haitsma"},{"image":"https://media.themoviedb.org/t/p/original/gtJVqPfax61940ak6k94F3D6Klh.jpg","alt":"The Brave Ones (2021) | Netflix Series | Gaffer | DPs: Kabelo Thathe SASC, Motheo Moeng SASC"},{"image":"https://media.themoviedb.org/t/p/original/m1b25HAMLNYxIhN7Sd68vYh9mvA.jpg","alt":"Deep End (2018) | Feature Film | Gaffer | DP: Ebrahim Hajee SASC"},{"image":"https://media.themoviedb.org/t/p/original/2JqYImXTQJ90BWYzMSbhMrnufcC.jpg","alt":"Griekwastad (2019) | Feature Film | Gaffer | DP: Jozua Malherbe"},{"image":"https://media.themoviedb.org/t/p/original/heqehuEfbg2283Z9hFmsVuv3UE3.jpg","alt":"Tiger House (2014) | Feature Film | Gaffer | DP: Willie Nel SASC"}] ?? {}
-).map(([_key, collectionItem]: any) => {
-  const index = Array.isArray([{"image":"https://media.themoviedb.org/t/p/original/261fvNbRB78p14bAERDqOrFtZ8J.jpg","alt":"African Queens: Njinga (2023) | Netflix Limited Series | Gaffer | DP: Kabelo Thathe SASC | Emmy-nominated for Best Cinematography"},{"image":"https://media.themoviedb.org/t/p/original/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg","alt":"Sniper: The Last Stand (2025) | Feature Film | Gaffer | DP: Trevor Calverley SASC"},{"image":"https://media.themoviedb.org/t/p/original/A5fYyKH3A7KvbBk9zhVLKCvELIE.jpg","alt":"Devil's Peak (2022) | Series / Drama | Gaffer | DP: Ivan Strasberg BSC"},{"image":"https://media.themoviedb.org/t/p/original/cyn395RyxeP64T6jEgOGE4K7O46.jpg","alt":"Wild Is the Wind (2022) | Feature Film | Gaffer | DP: Bert Haitsma"},{"image":"https://media.themoviedb.org/t/p/original/gtJVqPfax61940ak6k94F3D6Klh.jpg","alt":"The Brave Ones (2021) | Netflix Series | Gaffer | DPs: Kabelo Thathe SASC, Motheo Moeng SASC"},{"image":"https://media.themoviedb.org/t/p/original/m1b25HAMLNYxIhN7Sd68vYh9mvA.jpg","alt":"Deep End (2018) | Feature Film | Gaffer | DP: Ebrahim Hajee SASC"},{"image":"https://media.themoviedb.org/t/p/original/2JqYImXTQJ90BWYzMSbhMrnufcC.jpg","alt":"Griekwastad (2019) | Feature Film | Gaffer | DP: Jozua Malherbe"},{"image":"https://media.themoviedb.org/t/p/original/heqehuEfbg2283Z9hFmsVuv3UE3.jpg","alt":"Tiger House (2014) | Feature Film | Gaffer | DP: Willie Nel SASC"}]) ? Number(_key) : _key;
-  return (
-<Fragment key={index}>
-<Box
-className={`w-box c1tntlgj c1e68lpf cwyl4m`}>
-<Box
-className={`w-box c1aiwwt5 c1aot3b4 c1mgvtyn c1il4ydm cqleu2u c1tntlgj c1e68lpf c15dxqea`}>
-<Image
-src={collectionItem?.image}
-loading={"eager"}
-width={800}
-height={1200}
-alt={collectionItem?.alt}
-className={`w-image cnj9wpl c30qvo4 cc1bmgc`} />
 </Box>
 </Box>
-</Fragment>
-)
-})
-}
-</Box>
+</div>
+</div>
+<Slot>
+<Fragment_1>
 <Box
-dv-lightbox={""}
-className={`w-box cns1p6l cmupvqz c1628sxu cnj9wpl c30qvo4 cjf417m cp2f8hz cucw341 c1xmeuo0 cye78ef clq0lq0 c1aus8gd c12njp1 cafhzr0 c101c896 c1lyekh4 c17wz2eh c1jq31f3`}>
-<Button
-type={"button"}
-dv-lightbox-close-button={""}
-className={`w-button czeg2mj cucw341 c1xmeuo0 c2j3e66 c8glfzr c1lweosj c1867ngr c5wifrb c13ezfy3 c2tkczq c1ouctu1 c1diqp5q cdkhpeb cwyl4m c1itpbng`}>
-<HtmlEmbed
-code={"<svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z\" fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"></path></svg>"}
-className={`w-html-embed`} />
-</Button>
+className={`w-box cnj9wpl cmgv3df c11mvtry c4a4m5l c7zyj9q clfdxt1 c1uptsej c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn c7o56e8 cqrgxta c1tgy5km c1rw6c5s c1vz3ewr cl8aymc c1bl0y0f c1j0tqkr c1m6vyja c16ihz7h c1mfxk51 c1qp4wjy cvayz12 cyfbjju c1cnkrrm c1idrzyd cm0ufbg c1hrvr8b c1q776nx c2oby3n cnv9txi c15dvzlw`}>
 <Box
-className={`w-box c1rw6c5s c17f34ye cucw341 c1xmeuo0 c7zyj9q c16ve6fr c1e5tzf7 cubj2ix cqfg4ub`}>
+className={`w-box c1rw6c5s cucw341 c1mqjxyf c833fyj c1d3de5k`} />
 <Box
-className={`w-box c1rw6c5s cucw341 c1xmeuo0 cz2lpon`}>
-<Button
-type={"button"}
-dv-lightbox-prev-button={""}
-className={`w-button c1rw6c5s c5wifrb c13ezfy3 c2tkczq c1ouctu1 c1diqp5q cdkhpeb cwyl4m c1itpbng`}>
-<HtmlEmbed
-code={"<svg width=\"24\" height=\"24\" viewBox=\"0 0 15 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.85355 3.14645C7.04882 3.34171 7.04882 3.65829 6.85355 3.85355L3.70711 7H12.5C12.7761 7 13 7.22386 13 7.5C13 7.77614 12.7761 8 12.5 8H3.70711L6.85355 11.1464C7.04882 11.3417 7.04882 11.6583 6.85355 11.8536C6.65829 12.0488 6.34171 12.0488 6.14645 11.8536L2.14645 7.85355C1.95118 7.65829 1.95118 7.34171 2.14645 7.14645L6.14645 3.14645C6.34171 2.95118 6.65829 2.95118 6.85355 3.14645Z\" fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"></path></svg>"}
-className={`w-html-embed`} />
-</Button>
-</Box>
-<Box
-className={`w-box c1rw6c5s c1b7vdjs cucw341`}>
-<Box
-className={`w-box c16ve6fr cubj2ix c1hsnan4 c1n6c0o5 c1dfr0yt c1aot3b4 c1mgvtyn c1il4ydm cqleu2u c15dxqea`}>
-<Image
-id={"dv-lightbox-image"}
-className={`w-image c16ve6fr cubj2ix c1hsnan4 c5mr45x celqc5l cyzktis`} />
-</Box>
-<Box
-className={`w-box c7zyj9q c1rw6c5s cucw341 c1xmeuo0 cif43cd cdkhpeb c1kyii3u`}>
+className={`w-box c1rw6c5s c1vz3ewr c1mqjxyf cq2gdea c1b7vdjs c1xhyh14 c13ineqz cn977ni c1hmeh7i`} />
+<div
+className={`w-element c1rw6c5s cucw341 c1mqjxyf culock7 c1uar53d`}>
 <Text
-id={"dv-lightbox-caption"}
-className={`w-text`}>
-{"The text you can edit"}
+className={`w-text c4a4m5l c1uh55lj c1xo47xn c1gz9wmd`}>
+{"Website Theme:"}
 </Text>
-</Box>
-</Box>
+<Slot>
+<Fragment_1>
 <Box
-className={`w-box c1rw6c5s cucw341 c1xmeuo0 cz2lpon`}>
+website-theme-buttons={""}
+className={`w-box cerqxn6 cylk4iu c1aqi6xk c1nrn79d c4myuoz c1xj1ae8 c1vxk5tx c1619o6x c1izab5s cggmto8 c17pywfy cugnx7e c1rw6c5s c10lhp00 c1xmeuo0 c13nzd84 c9t5p0i c138uecn c7zyj9q cwjkv5a`}>
+<Box
+className={`w-box c2j3e66 c1628sxu c18d8azv c9lp9it cmupvqz cnj9wpl c30qvo4 c19w81q9`} />
 <Button
+website-theme={"light"}
 type={"button"}
-dv-lightbox-next-button={""}
-className={`w-button c1rw6c5s c5wifrb c13ezfy3 c2tkczq c1ouctu1 c1diqp5q cdkhpeb cwyl4m c1itpbng`}>
-<HtmlEmbed
-code={"<svg width=\"24\" height=\"24\" viewBox=\"0 0 15 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z\" fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"></path></svg>"}
-clientOnly={true}
-className={`w-html-embed`} />
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Light"}
+</Button>
+<Button
+website-theme={"dark"}
+type={"button"}
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Dark"}
+</Button>
+<Button
+website-theme={"auto"}
+type={"button"}
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Auto(System)"}
 </Button>
 </Box>
-</Box>
-</Box>
-</Box>
-<HtmlEmbed
-code={"<script type=\"module\" src=\"https://drevo.b-cdn.net/Library/Custom%20Components/Lightbox%20Gallery/lightbox-gallery-v1.2.1.js\"></script>"}
-clientOnly={true}
-className={`w-html-embed`} />
-</Box>
-<p
-className={`w-element`}>
-{""}
-<br />
-{""}
-{"ADDITIONAL KEY CREDITS — UNIT EXPERIENCE"}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Selected work demonstrating Brent’s depth across Main Unit, Rigging, 2nd Unit, VFX Unit, and Additional Photography."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"MAIN UNIT"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"The Mummy (2017) — Lighting Technician (Namibia)"}
-{""}
-<br />
-{""}
-{"Mowgli (2018) — South African Unit Electrician"}
-{""}
-<br />
-{""}
-{"Focus: large-scale set electrics, continuity-driven lighting, and integration with complex studio workflows."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"RIGGING UNIT"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Star Trek: Beyond (2016) — Rigging Spark"}
-{""}
-<br />
-{""}
-{"Our Girl (BBC, 2017–2018) — Rigging Gaffer (shot in Nepal)"}
-{""}
-<br />
-{""}
-{"Black Sails (2014–2016) — Rigging & Lighting Technician"}
-{""}
-<br />
-{""}
-{"Stargate: Origins (2018) — 2nd Rigging Best Boy"}
-{""}
-<br />
-{""}
-{"Focus: heavy rigging, safe large-set installations, efficient pre-light systems, and multi-department coordination across stunt, action, and VFX-heavy environments."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"2ND UNIT"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Origins: The Story of Mankind (2012) — 2nd Unit Gaffer"}
-{""}
-<br />
-{""}
-{"Resident Evil: The Final Chapter (2016) — 2nd Unit Best Boy"}
-{""}
-<br />
-{""}
-{"Focus: action sequences, continuity with main-unit lighting, and rapid on-the-day problem solving."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"VFX UNIT"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"The Empty Man (2020) — VFX Unit Gaffer"}
-{""}
-<br />
-{""}
-{"Focus: interactive lighting, plate lighting, controlled color environments, and integration with digital extensions."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"ADDITIONAL PHOTOGRAPHY"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Fatal Seduction — Season 2 (2024) — Gaffer"}
-{""}
-<br />
-{""}
-{"Focus: maintaining continuity for reshoots and supplementary photography; matching established visual language."}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-<b
-className={`w-element`}>
-{"EARLY FOUNDATION"}
-</b>
-{""}
-<br />
-{""}
-{""}
-<br />
-{""}
-{"Dredd 3D (2012) — Trainee"}
-{""}
-<br />
-{""}
-{"Death Race 2 (2010) — Trainee"}
-{""}
-<br />
-{""}
-{"Safe House (2012) — Trainee (Action Unit)"}
-{""}
-<br />
-{""}
-{"Focus: grounding in discipline, technical fundamentals, and exposure to international lighting standards."}
-</p>
-</Box>
+</Fragment_1>
+</Slot>
 </div>
-</div>
+</Box>
+</Fragment_1>
+</Slot>
 <div
 className={`w-element cns1p6l c1jtnrfa c154qq54 crhgf6d c43jh65 cz2lpon c7sys86 c1loq5zi`}>
 <Slot>

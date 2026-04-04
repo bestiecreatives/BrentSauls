@@ -10,14 +10,14 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "f45435c4-b60f-4fe6-9efb-1e39122ed46d";
 
-      export const lastPublished = "2026-04-04T15:01:22.552Z";
+      export const lastPublished = "2026-04-04T18:17:34.582Z";
 
       export const siteName = "Brent Sauls, ICLS";
 
       export const breakpoints = [{"id":"1PzfdKe46bgQarIwwvn1S"},{"id":"QZKELh-sLTAkGs0YQvzxi","maxWidth":991},{"id":"1skrlEkZQrwd1WIhd9l54","maxWidth":767},{"id":"v1g93df1K9Biyun3Ut6sA","maxWidth":479}];
 
       export const favIconAsset: string | undefined =
-        "logolight-cropped_(1)_fgAKxMkMVSGSZqKsorRw9.svg";
+        "1_1_prZvg7DS8pRKyZGQa7XGB.png";
 
       // Font assets on current page (can be preloaded)
       export const pageFontAssets: string[] =

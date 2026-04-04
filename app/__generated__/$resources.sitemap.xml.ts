@@ -7,6 +7,10 @@
   {
     "path": "/features-and-series",
     "lastModified": "2026-04-04"
+  },
+  {
+    "path": "/commercials",
+    "lastModified": "2026-04-04"
   }
 ];
     
