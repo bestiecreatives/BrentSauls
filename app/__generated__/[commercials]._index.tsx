@@ -10,7 +10,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "f45435c4-b60f-4fe6-9efb-1e39122ed46d";
 
-      export const lastPublished = "2026-04-04T18:20:53.038Z";
+      export const lastPublished = "2026-04-04T18:32:15.484Z";
 
       export const siteName = "Brent Sauls, ICLS";
 
@@ -71,14 +71,16 @@ alt={""}
 className={`w-image cye78ef ${"logo-light"}`} />
 </div>
 <NavigationMenu
-className={`w-navigation-menu c7zyj9q clpmj7m`}>
+className={`w-navigation-menu c7zyj9q clpmj7m cd9ig70`}>
 <NavigationMenuList
-className={`w-menu-list c1citdtb ch5o2yb cqe1wte cxcl7rd cxg0iaa cucw341 c1xmeuo0 c1p1dooo c149hh94 c15avqat c9qbqbd cimp2t3 cpexfyi c1a9yrhu`}>
+className={`w-menu-list clhuwdh c147mqlg c14qbsy crzox0h c1citdtb ch5o2yb cqe1wte cxcl7rd cxg0iaa cucw341 c1xmeuo0 c1p1dooo c149hh94 c15avqat c9qbqbd cimp2t3 c1bfrgf5 c1m5zhuq cw5l2bg c1p4l0wg cpexfyi`}>
 <NavigationMenuItem
 data-ws-index="0"
 className={`w-menu-item c1whyfkr`}>
 <NavigationMenuLink>
 <Link
+href={"/about"}
+target={"_self"}
 className={`w-link czeg2mj cucw341 c1xmeuo0 c5wifrb ce1h5oe cmvmmy3 c1rey2l1 c1ohilfq c1ewqzn1 c1fqtln1 cm0c7va cck35sq clhuwdh c1xjoouu c14qbsy c1k2iu9j clyrfez cueqn9e c1sb7a4l c1rm1a04 cwjb50k c77rn62 c1aan3d7 c117yiv1 cdou2ti c17dkkp2`}>
 {"About"}
 </Link>
@@ -137,13 +139,13 @@ className={`w-box c2j3e66 c1628sxu c18d8azv c9lp9it cmupvqz cnj9wpl c30qvo4 c19w
 website-theme={"light"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Light"}
+{"Light.Work"}
 </Button>
 <Button
 website-theme={"dark"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Dark"}
+{"Shadow.Work"}
 </Button>
 <Button
 website-theme={"auto"}
@@ -228,13 +230,13 @@ className={`w-box c2j3e66 c1628sxu c18d8azv c9lp9it cmupvqz cnj9wpl c30qvo4 c19w
 website-theme={"light"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Light"}
+{"Light.Work"}
 </Button>
 <Button
 website-theme={"dark"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Dark"}
+{"Shadow.Work"}
 </Button>
 <Button
 website-theme={"auto"}

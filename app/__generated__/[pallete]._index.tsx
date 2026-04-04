@@ -9,7 +9,7 @@
 
       export const projectId = "f45435c4-b60f-4fe6-9efb-1e39122ed46d";
 
-      export const lastPublished = "2026-04-04T18:20:53.038Z";
+      export const lastPublished = "2026-04-04T18:32:15.484Z";
 
       export const siteName = "Brent Sauls, ICLS";
 
@@ -2400,13 +2400,13 @@ className={`w-box c2j3e66 c1628sxu c18d8azv c9lp9it cmupvqz cnj9wpl c30qvo4 c19w
 website-theme={"light"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Light"}
+{"Light.Work"}
 </Button>
 <Button
 website-theme={"dark"}
 type={"button"}
 className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
-{"Dark"}
+{"Shadow.Work"}
 </Button>
 <Button
 website-theme={"auto"}

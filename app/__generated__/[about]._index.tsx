@@ -4,7 +4,7 @@
 
       import { Fragment, useState } from "react";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      import { Body as Body, Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Text as Text, Button as Button, Slot as Slot, Image as Image, Link as Link, Heading as Heading } from "@webstudio-is/sdk-components-react";
+      import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Text as Text, Button as Button, Slot as Slot, Image as Image, Link as Link, Heading as Heading } from "@webstudio-is/sdk-components-react";
 import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuLink as NavigationMenuLink, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
 
 
@@ -27,31 +27,10 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
         []
 
       
-            
-            const Script = ({children, ...props}: Record<string, string | boolean>) => {
-              if (children == null) {
-                return <script {...props} />;
-              }
-
-              return <script {...props} dangerouslySetInnerHTML={{__html: children}} />;
-            };
-            const Style = ({children, ...props}: Record<string, string | boolean>) => {
-              if (children == null) {
-                return <style {...props} />;
-              }
-
-              return <style {...props} dangerouslySetInnerHTML={{__html: children}} />;
-            };
-            
-
-            export const CustomCode = () => {
-              return (<>{"\n\n\n\n\n\n\n\n\n\n\n"}</>);
-            }
-          
 
       const Page = (_props: { system: any; }) => {
-return <Body
-className={`w-body c1j2bm5z c1whyfkr`}>
+return <body
+className={`w-element`}>
 <Box
 className={`w-box`}>
 <Slot>
@@ -72,6 +51,8 @@ data-ws-tag="main"
 className={`w-box c1rw6c5s c1b7vdjs c10lhp00 c1mqjxyf cj3k90b cuoslab cljh1ft cmfxt4w cvyfkwx c1fx1pd6 c1j2bm5z cnj9wpl c1cdol2d c1tnzgch c1whyfkr cokxbbv c12t7elq c1e4a3o9`}>
 <div
 className={`w-element cneeidw c1uotjrc c1oyzb63 cimp2t3 c149hh94 c1p1dooo c43jh65 cz2lpon`}>
+<Slot>
+<Fragment_1>
 <div
 className={`w-element c53uwo8`}>
 <div
@@ -90,14 +71,16 @@ alt={""}
 className={`w-image cye78ef ${"logo-light"}`} />
 </div>
 <NavigationMenu
-className={`w-navigation-menu c7zyj9q clpmj7m`}>
+className={`w-navigation-menu c7zyj9q clpmj7m cd9ig70`}>
 <NavigationMenuList
-className={`w-menu-list c1citdtb ch5o2yb cqe1wte cxcl7rd cxg0iaa cucw341 c1xmeuo0 c1p1dooo c149hh94 c15avqat c9qbqbd cimp2t3 cpexfyi c1a9yrhu`}>
+className={`w-menu-list clhuwdh c147mqlg c14qbsy crzox0h c1citdtb ch5o2yb cqe1wte cxcl7rd cxg0iaa cucw341 c1xmeuo0 c1p1dooo c149hh94 c15avqat c9qbqbd cimp2t3 c1bfrgf5 c1m5zhuq cw5l2bg c1p4l0wg cpexfyi`}>
 <NavigationMenuItem
 data-ws-index="0"
 className={`w-menu-item c1whyfkr`}>
 <NavigationMenuLink>
 <Link
+href={"/about"}
+target={"_self"}
 className={`w-link czeg2mj cucw341 c1xmeuo0 c5wifrb ce1h5oe cmvmmy3 c1rey2l1 c1ohilfq c1ewqzn1 c1fqtln1 cm0c7va cck35sq clhuwdh c1xjoouu c14qbsy c1k2iu9j clyrfez cueqn9e c1sb7a4l c1rm1a04 cwjb50k c77rn62 c1aan3d7 c117yiv1 cdou2ti c17dkkp2`}>
 {"About"}
 </Link>
@@ -121,6 +104,8 @@ data-ws-index="2"
 className={`w-menu-item`}>
 <NavigationMenuLink>
 <Link
+target={"_self"}
+href={"/commercials"}
 className={`w-link czeg2mj cucw341 c1xmeuo0 c5wifrb ce1h5oe cmvmmy3 c1rey2l1 c1ohilfq c1ewqzn1 c1fqtln1 cm0c7va cck35sq clhuwdh c1xjoouu c14qbsy c1k2iu9j clyrfez cueqn9e c1whyfkr c1sb7a4l c1rm1a04 cwjb50k c77rn62 c1aan3d7 c117yiv1 cdou2ti c17dkkp2`}>
 {"Commercials"}
 </Link>
@@ -131,6 +116,7 @@ data-ws-index="3"
 className={`w-menu-item c1whyfkr`}>
 <NavigationMenuLink>
 <Link
+href={"mailto:sandi-lee@tankcrew.co.za"}
 className={`w-link czeg2mj cucw341 c1xmeuo0 c5wifrb ce1h5oe cmvmmy3 c1rey2l1 c1ohilfq c1ewqzn1 c1fqtln1 cm0c7va cck35sq clhuwdh c1xjoouu c14qbsy c1k2iu9j clyrfez cueqn9e c1sb7a4l c1rm1a04 cwjb50k c77rn62 c1aan3d7 c117yiv1 cdou2ti c17dkkp2`}>
 {"Contact"}
 </Link>
@@ -171,10 +157,14 @@ className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1
 </Fragment_1>
 </Slot>
 </div>
+</Fragment_1>
+</Slot>
 <div
 className={`w-element`}>
 <Box
 className={`w-box c16ve6fr cmgv3df c11mvtry c4a4m5l c7zyj9q c8zo62r cpvjg0a c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn c1sylc6x cskrw1d c1lacmp7 c1mfxk51 c1qp4wjy c1idrzyd cm0ufbg c1hrvr8b c1q776nx cl3j00a c2oby3n cnv9txi`}>
+<Slot>
+<Fragment_1>
 <Heading
 data-ws-tag="h1"
 className={`w-heading cwa7i6t cb1w19d cpu4pf cuihiqb c1whyfkr cga6hw7`}>
@@ -188,8 +178,6 @@ className={`w-element`}>
 {"Gaffer, Rigging Gaffer"}
 </b>
 </Heading>
-<Box
-className={`w-box c1citdtb cucw341 c1mqjxyf c149hh94 c1p1dooo c15avqat c9qbqbd cimp2t3 c1whyfkr cyfbjju cmu33gf c18hjjc`}>
 <p
 className={`w-element`}>
 <i
@@ -197,38 +185,147 @@ className={`w-element`}>
 {"Light.Work / Shadow.Work"}
 </i>
 </p>
+</Fragment_1>
+</Slot>
+<Box
+className={`w-box c1citdtb cucw341 c1mqjxyf c149hh94 c1p1dooo c15avqat c9qbqbd cimp2t3 c1whyfkr cyfbjju cmu33gf c18hjjc`}>
 <p
 className={`w-element`}>
 <b
 className={`w-element`}>
-{"Finding Light. Honoring the Shadow."}
+<i
+className={`w-element`}>
+{"Experience that lives in the light — and learns from the shadows."}
+</i>
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"Brent Sauls is an African Gaffer with nearly two decades of experience across features, series, and premium commercial work. Classically trained, he has worked every role in the lighting department — from trainee, spark, and best boy to Gaffer on Main Unit, Rigging, 2nd Unit, and VFX Unit — building a deep, lived understanding of both the craft and the crews behind it, a lighting technician shaped by the full spectrum of the discipline."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"He built his foundation on features such as Dredd 3D, Death Race 2, and Safe House, learning under seasoned lighting teams and absorbing the pace and discipline of international filmmaking. By 2014, he gaffered his first feature, Tiger House, establishing the path that would define his career."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"As he continued leading smaller units, Brent broadened his craft as a technician on larger-scale features including Star Trek: Beyond, The Mummy, and Mowgli. Through this progression, Brent’s path led him to Gaffer African Queens, a project that earned a 2023 Emmy nomination for Best Cinematography."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"He has grown through every major evolution in lighting — from tungsten to LED, from analogue dimmers to wireless control, and into modern Virtual Production environments. He has worked across multiple African countries, as well as Dubai and Nepal, adapting his craft to diverse crews, conditions, and storytelling traditions. His work blends technical fluency with creative responsiveness, supporting cinematographers with mood, structure, efficient workflow, reliability, and calm under pressure."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"In commercial work, he is trusted by leading global brands across automotive, fashion, luxury, lifestyle, and technology — bringing speed, precision, and adaptable problem-solving to agency-driven environments."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"Through Magic Arms Lighting, Brent extends this craft with world-class gear, rigging expertise, and a philosophy rooted in adaptability, evolution, and adding value to every set."}
+</b>
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"Light.Work shapes what we see."}
 </b>
 {""}
 <br />
 {""}
 <b
 className={`w-element`}>
-{"Every story lives in Contrast."}
-</b>
-</p>
-<p
-className={`w-element`}>
-<b
-className={`w-element`}>
-{"Driven by passion. Grounded in craft."}
-</b>
-</p>
-<p
-className={`w-element`}>
-<b
-className={`w-element`}>
-{"I love working with people who care deeply about what they do — and helping them bring their vision to life through light. Every frame is shaped through discipline, teamwork, and trust — because truth lives in contrast."}
+{"Shadow.Work shapes who we are."}
 </b>
 </p>
 </Box>
 </Box>
 </div>
 </div>
+<Slot>
+<Fragment_1>
+<Box
+className={`w-box cnj9wpl cmgv3df c11mvtry c4a4m5l c7zyj9q clfdxt1 c1uptsej c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn c7o56e8 cqrgxta c1tgy5km c1rw6c5s c1vz3ewr cl8aymc c1bl0y0f c1j0tqkr c1m6vyja c16ihz7h c1mfxk51 c1qp4wjy cvayz12 cyfbjju c1cnkrrm c1idrzyd cm0ufbg c1hrvr8b c1q776nx c2oby3n cnv9txi c15dvzlw`}>
+<Box
+className={`w-box c1rw6c5s cucw341 c1mqjxyf c833fyj c1d3de5k`} />
+<Box
+className={`w-box c1rw6c5s c1vz3ewr c1mqjxyf cq2gdea c1b7vdjs c1xhyh14 c13ineqz cn977ni c1hmeh7i`} />
+<div
+className={`w-element c1rw6c5s cucw341 c1mqjxyf culock7 c1uar53d`}>
+<Text
+className={`w-text c4a4m5l c1uh55lj c1xo47xn c1gz9wmd`}>
+{"Website Theme:"}
+</Text>
+<Slot>
+<Fragment_1>
+<Box
+website-theme-buttons={""}
+className={`w-box cerqxn6 cylk4iu c1aqi6xk c1nrn79d c4myuoz c1xj1ae8 c1vxk5tx c1619o6x c1izab5s cggmto8 c17pywfy cugnx7e c1rw6c5s c10lhp00 c1xmeuo0 c13nzd84 c9t5p0i c138uecn c7zyj9q cwjkv5a`}>
+<Box
+className={`w-box c2j3e66 c1628sxu c18d8azv c9lp9it cmupvqz cnj9wpl c30qvo4 c19w81q9`} />
+<Button
+website-theme={"light"}
+type={"button"}
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Light.Work"}
+</Button>
+<Button
+website-theme={"dark"}
+type={"button"}
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Shadow.Work"}
+</Button>
+<Button
+website-theme={"auto"}
+type={"button"}
+className={`w-button c8tew8b c7lrsty cjmyn1r c1y1izo3 cuukyfn czeg2mj ciyivj9 c1r2ja15 c8r7uim c1knl6ln cxpdco5 cb57f18 cp4zlc8 cucw341 c1xmeuo0 c1uh55lj c7zyj9q cst2mrs`}>
+{"Auto(System)"}
+</Button>
+</Box>
+</Fragment_1>
+</Slot>
+</div>
+</Box>
+</Fragment_1>
+</Slot>
 <div
 className={`w-element cns1p6l c1jtnrfa c154qq54 crhgf6d c43jh65 cz2lpon c7sys86 c1loq5zi`}>
 <Slot>
@@ -275,7 +372,7 @@ className={`w-html-embed`} />
 </Slot>
 </Box>
 </Box>
-</Body>
+</body>
 }
 
 

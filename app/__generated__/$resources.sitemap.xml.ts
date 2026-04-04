@@ -11,6 +11,10 @@
   {
     "path": "/commercials",
     "lastModified": "2026-04-04"
+  },
+  {
+    "path": "/about",
+    "lastModified": "2026-04-04"
   }
 ];
     
